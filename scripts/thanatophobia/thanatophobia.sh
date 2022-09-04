@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# vim:fileencoding=utf-8:foldmethod=marker
 
 # SETTINGS {{{
 
