@@ -18,7 +18,6 @@ if [ ! -f "/tmp/tmp_thanatophobia" ] || [ "$(head -1 /tmp/tmp_thanatophobia)" !=
     fi
     echo $BIRTH_DATE $SEX $COUNTRY > /tmp/tmp_thanatophobia
     echo $EXPECTANCY >> /tmp/tmp_thanatophobia
-    echo test
 else
     EXPECTANCY=$(tail -1 /tmp/tmp_thanatophobia)
 fi
