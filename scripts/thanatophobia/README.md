@@ -20,5 +20,5 @@ type = custom/script
 exec = /path/to/script.sh
 format = You have <label> years left
 label = %output%
-interval=600
+interval=10
 ```
